@@ -1,0 +1,184 @@
+/*Laptops*/
+
+@media only screen and (max-width:1200px){
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/*Tablets landscape*/
+
+@media only screen and (max-width:1024px){
+    html,
+    body {
+        font-size: 12px;
+    }
+}
+
+/*Tablets portrait*/
+
+@media only screen and (max-width:768px){
+    html,
+    body {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 15%;
+        height: auto;
+    }
+
+    .menu-icon {
+        padding-top: 40px;
+        padding-right: 100px;
+    }
+    
+
+    .main-nav {
+        display: none;
+    }
+
+    .open-nav {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+/*Phones*/
+
+@media only screen and (max-width:480px){
+
+    .logo {
+        width: 30%;
+        height: auto;
+    }
+
+    .sticky-nav {
+        top: 40px;
+    }
+
+    .menu-icon {
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .open-nav {
+        display: block;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .about-box {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about-box:first-child {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .about-box:last-child {
+        text-align: center;
+    }
+
+    .about-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .work-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+
+    .services-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .service-box {
+        margin-bottom: 50px;
+    }
+
+    .partners-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .partner-logo {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .testimonial-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .testimonial-box {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .testimonial-image {
+        width: 20px;
+    }
+
+    .packages-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .package-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form-section{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .contact-form,
+    .contact-form div,
+    .label{
+        width: 100%;
+    }
+
+    .footer-nav,
+    .social-links {
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .work-portfolio li {
+        width: 50%;
+    }
+
+}
